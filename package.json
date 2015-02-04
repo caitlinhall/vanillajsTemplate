@@ -1,0 +1,19 @@
+{
+  "name": "thesicoras",
+  "version": "1.0.0",
+  "description": "The Sicoras website",
+  "main": "web.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/caitlinhall/thesicoras"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caitlinhall/thesicoras/issues"
+  },
+  "homepage": "https://github.com/caitlinhall/thesicoras",
+}
