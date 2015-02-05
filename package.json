@@ -16,4 +16,12 @@
     "url": "https://github.com/caitlinhall/thesicoras/issues"
   },
   "homepage": "https://github.com/caitlinhall/thesicoras",
+  "dependencies": {
+    "express": "~3.4.7",
+    "bootstrap": "~3.1.1"
+  },
+  "devDependencies": {},
+  "directories": {
+    "doc": "doc"
+  }
 }
