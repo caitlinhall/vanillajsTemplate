@@ -1,3 +1,1 @@
-# thesicoras
-# mytemplate
 # yum
