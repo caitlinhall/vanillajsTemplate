@@ -1,1 +1,1 @@
-# yum
+# vanillajsTemplate

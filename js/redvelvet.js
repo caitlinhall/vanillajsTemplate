@@ -6,42 +6,42 @@
 
 $(document).ready(function(){
 
-	function setBakeryCookie() {
-	    $.cookie('bakeryCookie', 'true');
+	function setPage1Cookie() {
+	    $.cookie('page1Cookie', 'true');
 	}
 
-	function setDeliCookie() {
-	    $.cookie('deliCookie', 'true');
+	function setPage2Cookie() {
+	    $.cookie('page2Cookie', 'true');
 	}
 
-	var bakery = $("#bakery");
-	var deli = $("#deli");
-	if(bakery){
-		bakery.click(setBakeryCookie);
+	var page1 = $("#page1");
+	var page2 = $("#page2");
+	if(page1){
+		page1.click(setPage1Cookie);
 	}
-	if(deli){
-		deli.click(setDeliCookie);
+	if(page2){
+		page2.click(setPage2Cookie);
 	}
-	console.log($.cookie('deliCookie')+ "deli");
-	console.log($.cookie('bakeryCookie') +"bakery");
+	console.log($.cookie('page2Cookie')+ " page2");
+	console.log($.cookie('page1Cookie') +" page1");
 
 
 	var urlTag = $("#urlTag");
 	if(urlTag){
-		if($.cookie('bakeryCookie')){
-			urlTag.html("<a href='bakery.html'>Submit</a>");
+		if($.cookie('page1Cookie')){
+			urlTag.html("<a href='page1.html'>Submit</a>");
 		}
-		if($.cookie('deliCookie')){
-			urlTag.html("<a href='deli.html'>Submit</a>");
+		if($.cookie('page2Cookie')){
+			urlTag.html("<a href='page2.html'>Submit</a>");
 		}
 	}
 
 	var deleteCookie = $("#deleteCookie");
 	if(deleteCookie){
-		if($.cookie('bakeryCookie')){
-			$.removeCookie('bakeryCookie');		
-		}else if($.cookie('deliCookie')){
-			$.removeCookie('deliCookie');
+		if($.cookie('page1Cookie')){
+			$.removeCookie('page1Cookie');		
+		}else if($.cookie('page2Cookie')){
+			$.removeCookie('page2Cookie');
 		}
 	}
 
